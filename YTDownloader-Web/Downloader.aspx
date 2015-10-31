@@ -12,7 +12,7 @@
         <asp:Label ID="Label1" runat="server" Text="Enter Youtube Link"></asp:Label><br />
         <asp:TextBox ID="txtLink" runat="server" Width="323px"></asp:TextBox><br />
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Get Direct Download Links" /><br />
-        <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="Label2" runat="server"></asp:Label>
     </div>
     </form>
 </body>

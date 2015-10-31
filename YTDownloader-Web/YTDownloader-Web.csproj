@@ -74,6 +74,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Downloader2.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -94,6 +95,13 @@
     </Compile>
     <Compile Include="Downloader.aspx.designer.cs">
       <DependentUpon>Downloader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Downloader2.aspx.cs">
+      <DependentUpon>Downloader2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Downloader2.aspx.designer.cs">
+      <DependentUpon>Downloader2.aspx</DependentUpon>
     </Compile>
     <Compile Include="FileDownloader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
