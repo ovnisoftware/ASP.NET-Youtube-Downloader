@@ -75,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Downloader2.aspx" />
+    <Content Include="Downloader3.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -85,8 +86,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Downloader.aspx" />
-    <Content Include="hr.png" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Downloader.aspx.cs">
@@ -102,6 +104,13 @@
     </Compile>
     <Compile Include="Downloader2.aspx.designer.cs">
       <DependentUpon>Downloader2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Downloader3.aspx.cs">
+      <DependentUpon>Downloader3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Downloader3.aspx.designer.cs">
+      <DependentUpon>Downloader3.aspx</DependentUpon>
     </Compile>
     <Compile Include="FileDownloader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
